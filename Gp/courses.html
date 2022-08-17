@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+ul,ol li a {
+              text-decoration: none;
+              color: black;
+            }
+
+            a:hover {
+              color: #ffc451;
+              text-decoration: none;
+            }
+
+            #html p3{
+              margin: 0;
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+            }
+            #html ul li::before {
+               content: "\2022";
+               color: red;
+               display: inline-block; 
+               font-weight: bold;
+  width: 1em;
+  margin-left: -1em;
+}
+
+            #html,#css,#javascript,#cc,#python,#cprogram,#php,#perl ul,ol li {
+              font-size: 20px;
+            }
+
+            #course ul{
+              list-style: none;
+            }
+
+            #tag p{
+              font-size: 17px;
+              color:rgb(49, 48, 48);
+              text-transform: none;
+            }
+
+            .check{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    .ex{
+      border: 2px solid green;
+      padding-left: 20px;
+    }
+
+    iframe{
+      border: 2px solid red;
+    }
+    #html a {
+              text-decoration: none;
+              color: black;
+            }
+
+    #html  a:hover {
+              color: #ffc451;
+              text-decoration: none;
+            }
+       
+    #javascript p3{
+              margin: 0;
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+    }
+    #javascript ul li::before {
+              content: "\2022";
+              color: red;
+              font-weight: bold;
+              display: inline-block; 
+              width: 1em;
+              margin-left: -1em;
+            }
+
+    #css p3{ 
+              margin: 0; 
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase; 
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+    }
+    .pa ul li::before {
+              content: "\2022";
+              color: red;
+              font-weight: bold;
+              display: inline-block; 
+              width: 1em;
+              margin-left: -1em;
+            }
+   
+    #cc p3{
+              margin: 0; 
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase; 
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+
+    }
+  
+    #cc ul li::before {
+              content: "\2022";
+              color: red;
+              font-weight: bold;
+              display: inline-block; 
+              width: 1em;
+              margin-left: -1em;
+            }
+    #cprogram p3{
+              margin: 0; 
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase; 
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+
+    }
+    #now ul li a {
+              text-decoration: none;
+              color: black;
+            }
+    #now a:hover {    
+              color: red ; 
+              text-decoration: none;
+            }
+    #python p3{
+              margin: 0; 
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase; 
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+    }
+    
+    #python ul li::before {
+              content: "\2022";
+              color: red;
+              font-weight: bold;
+              display: inline-block; 
+              width: 1em;
+              margin-left: -1em;
+            }
+    #adv ul li::before {
+              content: "\2022";
+              color: red;
+              font-weight: bold;
+              display: inline-block; 
+              width: 1em;
+              margin-left: -1em;
+            }
+            #php p3{
+              margin: 0;
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+    }
+    #perl p3{
+              margin: 0;
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: uppercase;
+              font-family: "Poppins", sans-serif;
+              color: #151515;
+    }
+
+    </style>
+
+</head>
+<body>
+    
+<div class="container">
+
+    <h1 class="heading">our services</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/img/courses/icon-1.png" alt=""> 
+            <h3>HTML 5</h3>
+            <p>HTML stands for Hyper Text Markup Language, is the standard markup language 
+                used to create web pages.</p>
+            <a href="#html" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/icon-2.png" alt=""> 
+            <h3>CSS 3</h3>
+            <p>CSS stands for Cascading Stylesheets.CSS is used to add styling to that bare-bone page created using HTML .</p>
+            <a href="#css" class="btn">Learn</a> 
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/icon-3.png" alt="">
+            <h3>JavaScript</h3>
+            <p> JavaScript is the world's most most popular programming language.</p>
+            <a href="#javascript" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/php.jpg" alt="">
+            <h3>Php</h3>
+            <p>PHP is a popular general-purpose scripting language that is especially suited to web development.</p>
+            <a href="#php" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/perl.webp" alt="">
+            <h3>Perl</h3>
+            <p>Perl is a highly capable, feature-rich programming language with over 30 years of development.</p>
+            <a href="#perl" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/c.jpg" alt="">
+            <h3>C Program</h3>
+            <p> C is a general-purpose, procedural computer programming language supporting structured programming. </p>
+            <a href="#cprogram" class="btn">Learn</a>
+        </div >
+        
+       <div class="box">
+           <img src="assets/img/courses/c++.jpg" alt="">
+           <h3>C++</h3>
+           <p>The Android is an open-source Operating system and hence possesses a vast community for support.</p>
+           <a href="#cc" class="btn">Learn</a> 
+       </div>
+
+       <div class="box">
+        <img src="assets/img/courses/python.png" alt="">
+        <h3>python</h3>
+        <p>Python is a high-level, general-purpose and a very popular programming language.</p>
+        <a href="#python" class="btn">Learn</a> 
+    </div>
+
+        <div class="box">
+            <img src="assets/img/courses/icon-4.png" alt="">
+            <h3>SASS</h3>
+            <p> SaaS software provides organizations with a cloud-based alternative for their applications</p>
+            <a href="#css" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/icon-5.png" alt="">
+            <h3>JQuery</h3>
+            <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+            <a href="#javascript" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/icon-6.png" alt="">
+            <h3>React.js</h3>
+            <p>React.js is an open-source, front end, JavaScript library for building user interfaces or UI components</p>
+            <a href="#javascript" class="btn">Learn</a>
+        </div>
+
+        <div class="box"> 
+            <img src="assets/img/courses/java.jpg" alt="">
+            <h3>Java</h3>
+            <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+            <a href="#java" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/mysql.jpg" alt="">
+            <h3>Mysql</h3>
+            <p>To add, access, and process data stored in a computer database, you need a database management system such as MySQL Server.</p>
+            <a href="#cc" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/MACHINE_LEARNING.jpg" alt="">
+            <h3>Machine Learning</h3>
+            <p>Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.</p>
+            <a href="#php" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/bootstrap-4.png" alt="">
+            <h3>Bootstrap</h3>
+            <p>Bootstrap is a potent front-end framework used to create modern websites and web apps.</p>
+            <a href="#css" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/C-sharp-logo.jpg" alt="">
+            <h3>C#</h3>
+            <p>C# is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in .NET</p>
+            <a href="#cprogram" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/os.jpg" alt="">
+            <h3>Operating System</h3>
+            <p>An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.</p>
+            <a href="#perl" class="btn">Learn</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/img/courses/Data-structures.png" alt="">
+            <h3>Data Structure</h3>
+            <p>A data structure is a Specific way to store and organize data in a computer's memory so that these data can be used efficiently later.</p>
+            <a href="#cprogram" class="btn">Learn</a>
+        </div>
+
+    </div>
+
+
+     <!-- ========html course========= -->
+    <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+          <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+          <!-- </div> -->
+          <section id="html" class="html">
+            <div class="container" data-aos="fade-up">
+              <div class="row">
+                
+                <div
+                  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                >
+                  <p3>About HTML</p3>
+                  <h3>HTML stands for HyperText Markup Language:</h3>
+                  <ul>
+                    <li>
+                      A markup language is a computer language that defines the
+                      structure and presentation of raw tex.
+                    </li>
+                    <li>
+                      In HTML, the computer can interpret raw text that is wrapped in
+                      HTML elements.
+                    </li>
+                    <li>
+                      HTML is the language of the web.It is used to create websites
+                    </li>
+                    <li>we use HTML tags to define look and feel of a wensite.</li>
+                    <li>
+                      HyperText is text displayed on a computer or device that
+                      provides access to other text through links, also known as
+                      hyperlinks. You probably clicked on a couple of hyperlinks on
+                      your way to this Codecademy course.
+                    </li>
+                    <li>
+                      Learning HTML is the first step in creating websites, but even a
+                      bit of knowledge can help you inject code snippets into
+                      newsletter, blog or website templates. As you continue learning,
+                      you can layer HTML with CSS and JavaScript to create visually
+                      compelling and dynamic websites. But for now, we’re going to
+                      focus on how to add and modify basic content on a page, like
+                      text, images, and videos.
+                    </li>
+                  </ul>
+                  <br>
+                  <h2>A Basic HTML page</h2>
+                  <img
+                    src="https://res.cloudinary.com/zavrelj/image/upload/v1576419564/codewithjan/html-basics/html-basics-11.png"
+                    alt="alternate"
+                    width="900px"
+                    height="400px"
+                  />
+                  <br>
+                  <h3>HTML Element</h3>
+                  <p1
+                    >An HTML element is defined by a start tag, some content, and an
+                    end tag.</p1
+                  >
+                  <p1
+                    >The HTML <strong>element</strong> is everything from the start
+                    tag to the end tag:</p1
+                  >
+                  <div style="font-size: 20px; padding: 10px; margin-bottom: 10px">
+                    <span class="spes_tagname"
+                      ><span class="spes_tag">&lt;</span>tagname<span class="spes_tag"
+                        >&gt;</span
+                      ></span
+                    >Content goes here...<span class="spes_tagname"
+                      ><span class="spes_tag">&lt;</span>/tagname<span
+                        class="spes_tag"
+                        >&gt;</span
+                      ></span
+                    >
+                    <br /><br /><p1>Examples some elements</p1>
+                    <div style="font-size: 20px; padding: 10px; margin-bottom: 10px">
+                      <span class="spes_tagname"
+                        ><span class="spes_tag"
+                          >&lt;<span class="spes_tagname">h1</span>&gt;</span
+                        ></span
+                      >My First Heading<span class="spes_tagname"
+                        ><span class="spes_tag">&lt;</span>/h1<span class="spes_tag"
+                          >&gt;</span
+                        ></span
+                      >
+                    </div>
+      
+                    <div style="font-size: 20px; padding: 10px; margin-bottom: 10px">
+                      <span class="spes_tagname"
+                        ><span class="spes_tag">&lt;</span>p<span class="spes_tag"
+                          >&gt;</span
+                        ></span
+                      >My first paragraph.<span class="spes_tagname"
+                        ><span class="spes_tag">&lt;</span>/p<span class="spes_tag"
+                          >&gt;</span
+                        ></span
+                      >
+                    </div>
+                  </div>
+                  <h2>A Basic HTML tags</h2>
+                  <span id="tag">
+                    <p>&lt;h1&gt; This is Heading &lt;/h1&gt;</p>
+                  
+                    <p>&lt;p&gt; This is paragraph &lt;/h1&gt;</p>
+                    
+                    <p>&lt;h1&gt; This is Anchor tag &lt;/h1&gt;</p>
+                    
+                    <p>&lt;img....&gt; This is image tag</p>
+                    <br>
+                    <h2>The Heading tags</h2>
+                    <ul type="circle"><li>Heading tag is used to mark heading in HTML.</li>
+                      <li>From h1 to h6 ,we have tags for the most important to the last important.</li>
+                      <li>NOTE:We should not use HTML headings to make text thick or bold</li>
+                      <li> <u>Let's Run the below code</u> </li>
+                    </ul>
+                    <br>
+                    <div class="ex">
+                      <br>
+                      <p>&lt;!Doctype html&gt;</p>
+                      <p>&lt;html&gt; </p>
+                      <p>&lt;head&gt;</p>
+                      <p>&lt;title&gt; Title name &lt;/title&gt;</p>
+                      <p>&lt;/h1&gt;</p>
+                      <p>&lt;body&gt;</p>
+                      <p>&lt;h1&gt; This is Heading h1 &lt;/h1&gt;</p>
+                      <p>&lt;h2&gt; This is Heading h2 &lt;/h2&gt;</p>
+                      <p>&lt;h3&gt; This is Heading h3 &lt;/h3&gt;</p>
+                      <p>&lt;h4&gt; This is Heading h4 &lt;/h4&gt;</p>
+                      <p>&lt;h5&gt; This is Heading h5 &lt;/h5&gt;</p>
+                      <p>&lt;h6&gt; This is Heading h6 &lt;/h6&gt;</p>
+                      <p>&lt;/body&gt;</p>
+                      <p>&lt;/html&gt;</p>
+                      <br>
+                    </div>
+                  </span>
+                  <br>
+                    <h3>HTML headings are displayed on a webpage as follows:</h3> <br>
+                  <hr>
+                  <img src="assets/img/courses/example1.png" alt=""><hr><br>
+                  <br>
+                  <h3>Refer the following links for a detailed information of course</h3>
+                  <a href="https://www.w3schools.com/html/html_forms.asp">For Forms</a><br>
+                  <a href="https://www.w3schools.com/html/html_tables.asp">For Table</a><br>
+                  <a href="https://www.w3schools.com/html/html_media.asp">Media Queries</a>
+                    
+                  <h3>For more information watch the below video</h3><br>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/BsDoLVMnmZs"
+                    title="YouTube video player"n-picture"
+                    allowfullscreen
+                  ></iframe>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      <hr/>
+      
+      <!-- ========css course========= -->
+          <section id="css" class="css">
+            <div class="container" data-aos="fade-up">
+              <div class="row">
+                <div
+                  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+                  data-aos="fade-right"
+                  data-aos-delay="100">
+      
+              
+                  <p3>About CSS</p3>
+                  <h3>CSS stands for Cascading Stylesheets:</h3>
+                  <div class="pa">
+                  <ul>
+                    <li>
+                      CSS is used to add styling to that bare-bone page created using HTML .
+                    </li>
+                    <li>
+                      HTML is just an skeletal layout of a website.We need CSS to design a website,add styles to it and make it look beautiful</li>
+                    <li>
+                      CSS is optional but it converts an off looking HTML page into a beautiful and responsive website😊.
+                    </li>
+                    <!-- <li>we use HTML tags to define look and feel of a wensite.</li> -->
+                    <li>
+                      CSS is very demanded skill in the world of web development.If you are successfully able to master CSS,you can customize your website as per your liking.
+                    </li>
+      
+                    <li>CSS is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain.</li>
+                  </div>
+                    <br><li><h4>Some of the advantages of using it are:</h4></li><ul></ul>
+                    <ol><li>Create Stunning Web site - CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text,the style of fonts, the spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects.</li>              
+                    <li>Become a web designer - If you want to start a carrer as a professional web designer, HTML and CSS designing is a must skill.</li>
+                    <li>Control web - CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.
+                    </li>
+                    <li>Learn other languages - Once you understands the basic of HTML and CSS then other related technologies like javascript, php, or angular are become easier to understand.</li>
+                    
+                  </ol>
+                  <ul>
+                    <br>
+                  <li>A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −</li></ul>
+      
+                  <ol>
+                  <li>Selector − A selector is an HTML tag at which a style will be applied. This could be any tag like &lt; h1 &gt; or &lt;table&gt; etc.</li>
+      
+                  <li>Property − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</li>
+      
+                  <li>Value − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li>
+                  </ul>
+      
+      
+                   <span>You can learn complete CSS from this link </span><a href="https://www.w3schools.com/w3css/defaulT.asp" ><i class='bx bxs-hand-up'>here</i></a>
+                   <hr/><br>
+                   <h3>For more information watch the below video</h3>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/Edsxf_NBFrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br>
+      
+           <!-- ========Javascript course========= -->
+           <section id="javascript" class="html">
+            <div class="container" data-aos="fade-up">
+              <div class="row">
+                <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+                <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+                <!-- </div> -->
+                <div
+                  class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                >
+                  <p3>About JavaScript</p3>
+                  <p style="font-size: 20px;"> <b> JavaScript, often abbreviated JS</b></p>
+                  <ul>
+                    <li>
+                      JavaScript is the world's most most popular programming language.
+                    </li>
+                    <li>
+                      Javascript is the programming language of the web.
+                    </li>
+                    <li>
+                      JavaScript is easy to learn.
+                    </li>
+                    <li>JavaScript is used to program logic for the page layout<br>For Example:<br>What happens when a user hovers on a text,when to hide or show elements etc .</li>
+                  </ul>
+                    <p style="font-size: 25px;"><b>The &lt;script&gt;tag</b></p>
+                    <ul>
+                    <li>In HTML,Javascript code is inserted between &lt;script&gt; and &lt;/script&gt;</li><br>
+                    <li>For Example:</li><br>
+                    <p1>&lt;script&gt;<br>document.getElementById("demo").innerHTML="My first javascript" <br>&lt;/script&gt;</p1>
+                  </ul><br>
+                  <p style="font-size: 25px;"> <b> Four ways to add JS to HTML</b></p>
+                    <ul type="circle">
+                    <li>You can place any number of scripts in an HTML document.Script can be placed in the &lt;body&gt; or &lt;head&gt; section of an HTML page,or in both and can also be placed in external files.</li>
+                  </ul>
+                  <ol>
+                    <li>JavaScript in &lt;head&gt;</li>
+                    <li>JavaScript in &lt;body&gt;</li>
+                    <li>JavaScript in &lt;head&gt; and &lt;body&gt;</li>
+                    <li>External JavaScript</li>
+                  </ol><br>
+                  <p style="font-size: 25px;"> <b>JavaScript Outputs</b></p>
+                    <ul type="circle">
+                    <li> <u> JS display possibities:</li></u>
+                    <li>For more details click on the following links</li>
+                  </ul>
+                  <br>
+                  <ol>
+                    <li> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_dom"> Writing into an HTML element,using <strong>innerHTML</strong></li></a>
+                    <li> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_write">Writing into the HTML output,using <strong>document.write()</strong></li></a>
+                    <li> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_alert">Writing into sn alert box,using <strong>window.alert()</strong></li></a>
+                    <li> <a href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_console">Writing into the browser console,using <strong>console.log()</strong></li></a>
+                  </ol>
+                 
+                    </div>  <br>
+                  <h3>For more information watch the below video</h3><br> 
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/hKB-YGF14SY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      <hr>
+      
+       <!-- ======== C Program ========= -->
+      <section id="cprogram" class="html">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+            <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+            <!-- </div> -->
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+            <div id="adv">
+            <p3>About C Programming</p3>
+              <h3>C language is considered as the mother language of all the modern programming languages</h3>
+              <ul>
+                <li>
+                  C is a mid-level structured oriented programming language, used in general-purpose programming.
+                  </li>
+                <li>
+                   It is developed by Dennis Ritchie at AT&T Bell Labs, the USA, between 1969 and 1973.
+                </li>
+                <li>
+                  Linux OS, PHP, and MySQL are written in C.
+                </li>
+                <li>C language is reliable, simple, easy and flexible to use.</li>
+                <li>Modern programming concepts are based on C.</li>
+                <li> ‘C’ programming language is also called as ‘ANSI C’.</li>
+              </ul>
+      <br>
+            
+                <h3>Advantages of C:</h3>
+                <ul>
+                  <li>C is the building block for many other programming languages.</li>
+                  <li>Programs written in C are highly portable</li>
+                  <li>Several standard functions are there (like in-built) that can be used to develop programs.</li>
+                  <li>C programs are collections of C library functions, and it's also easy to add functions to the C library.</li>
+                  <li>The modular structure makes code debugging, maintenance, and testing easier.</li>
+                </ul>
+              </h3> <br>
+              <h3>Disadvantages of C:</h3> 
+                <ul>
+                  <li>C does not provide Object Oriented Programming (OOP) concepts.</li>
+                  <li>There are no concepts of Namespace in C.</li>
+                  <li>C does not provide binding or wrapping up of data in a single unit.</li>
+                  <li>C does not provide Constructor and Destructor.</li>
+                </ul>
+              </h3> 
+            </div>  
+            <p style="font-size: 20px;">Let's consider an example:</p>
+            <div class="ex">
+              <br>
+              <p>#include&lt;stdio.h&gt;</p>
+              <p>int main()</p>
+              <p>{</p>
+              <p>printf("Hello World");</p>
+              <p>return 0;</p>
+              <p>}</p>
+              <br>
+            </div><br>
+            <p style="font-size: 20px;">Output</p><br>
+            <img src="assets/img/courses/c output.png" width="100%" height="400px">
+            <h3>For Detailed information visit the following sites👇</h3>
+            <div id="now">
+            <ul>
+              <li> <a href="https://www.w3schools.in/c-tutorial/tokens/">C Tokens</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/operators/">Operators</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/data-types/">Data Types</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/variables/">Variables</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/input-output/">input-output statements</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/decision-making/">Conditional Statements</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/loops/">Control Statements</li></a>
+            </ul>
+          </div>
+              <hr><br>
+              <h3>For more information watch the below video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ZSPZob_1TOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <!-- ======== C++ Program========= -->
+      <section id="cc" class="cc">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+            <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+            <!-- </div> -->
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <p3>About C++ Programming</p3>
+              <h3></h3>
+              <ul>
+                <li>
+                  C++ is an object-oriented programming language. It is an extension to C programming.
+                </li>
+                <li>
+                  C++ is a general purpose, case-sensitive, free-form programming language that supports object-oriented, procedural and generic programming.
+                </li>
+                <li>Object-oriented concepts supported by c++ are:</li>
+                
+                </ul>
+                 <ol>
+                  <li>Inheritance</li>
+                  <li>Polymorphism</li>
+                  <li>Encapsulation</li>
+                  <li>abstraction</li>
+                </ol>
+                <ul>
+                <li>C++ is a middle-level language, as it encapsulates both high and low level language features.</li>
+                </ul>
+                <br>
+                <h2>C++ Standard Libraries</h2>
+                <ul>
+                <li>The core library includes the data types, variables and literals, etc.</li>
+                <li>The standard library includes the set of functions manipulating strings, files, etc.</li>
+                <li>The Standard Template Library (STL) includes the set of methods manipulating a data structure.</li>
+              </ul><br>
+                <h2>Usage of C++</h2>
+                <ul type="circle">
+                <li>Window application</li>
+                <li>Client-Server application</li>
+                <li>Device drivers</li>
+                <li>Embedded firmware etc</li>
+              </ul>
+              <br>
+              <h2>Refer to the following:</h2>
+              <div id="now">
+                <ul>
+                <li><a href="https://www.javatpoint.com/cpp-tutorial">C++ tutorial</li></a>
+                <li> <a href="https://www.javatpoint.com/c-vs-cpp"> C vs c++</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-program">C++ program</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-basic-input-output">cin,cout,endl</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-if-else">Control statements</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-functions">Functions</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-arrays">Arrays</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-pointers">Pointers</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-oops-concepts">Object-Oriented Concepts</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-inheritance">Inheritance</li></a>
+                <li> <a href="https://www.javatpoint.com/interfaces-in-cpp">Abstraction</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-polymorphism">Polymorphism</li></a>
+                <li> <a href="https://www.javatpoint.com/cpp-templates">Templates</li></a>
+                 </div>
+                
+              </ul>
+             
+                </div>
+              </span>
+              
+              <hr>
+              <br>
+              <h3>For more information watch the below video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/yGB9jhsEsr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <hr>
+      
+      <!-- ======== Python Program========= -->
+      <section id="python" class="python">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+            <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+            <!-- </div> -->
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <p3>About Python Programming</p3>
+              <h3></h3>
+              <ul>
+                <li>
+                  Python is a high-level, general-purpose and a very popular programming language.
+                </li>
+                <li>
+                  Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting edge technology in Software Industry. 
+                </li>
+                <li>Python Programming Language is very well suited for Beginners, also for experienced programmers with other programming languages like C++ and Java.</li>
+                
+                </ul><br>
+                <h2>Below are some facts about Python Programming Language:</h2></h2>
+                 <ol>
+                  <li>Python is currently the most widely used multi-purpose, high-level programming language.</li>
+                  <li>Python allows programming in Object-Oriented and Procedural paradigms.</li>
+                  <li>Python programs generally are smaller than other programming languages like Java. Programmers have to type relatively less and indentation requirement of the language, makes them readable all the time.</li>
+                  <li>Python language is being used by almost all tech-giant companies like – Google, Amazon, Facebook, Instagram, Dropbox, Uber… etc.</li>
+                  <li>The biggest strength of Python is huge collection of standard libraries</li>
+                </ol>
+                <br>
+                <ul>
+                <li>So before moving on further.. let’s do the most popular ‘HelloWorld’ tradition 😛</li>
+                <img src="https://www.pythontutorial.net/wp-content/uploads/2020/10/Python-Hello-World-Executing-code.png">
+                </ul>
+                <br>
+                <h2>Advantages : </h2>
+                <ul type="square">
+                <li>Extensive support libraries(NumPy for numerical calculations, Pandas for data analytics etc) </li>
+                <li>Open source and community development </li>
+                <li>Versatile, Easy to read, learn and write</li>
+                <li>User-friendly data structures </li>
+                <li>High-level language </li>
+                <li>Dynamically typed language(No need to mention data type based on the value assigned, it takes data type) </li>
+              </ul><br>
+                <h2>Applications</h2>
+                <ul type="disk">
+                <li>GUI based desktop applications</li>
+                <li>Graphic design, image processing applications, Games, and Scientific/ computational Applications</li>
+                <li>Web frameworks and applications </li>
+                <li>Enterprise and Business applications</li>
+                <li>Education</li>
+                <li>Software Development</li>
+              </ul>
+              <br>
+              <h2>Refer to the following:</h2>
+                
+                <li><a href="https://www.geeksforgeeks.org/python-3-basics/?ref=lbp">Python Basics</a></li>
+                <li> <a href="https://www.geeksforgeeks.org/python-classes-and-objects/?ref=lbp">Object-oriented concepts</a></li>
+                <li> <a href="https://www.geeksforgeeks.org/python-exception-handling/?ref=lbp">Exception handling</a></li><br>
+                <h3>You can also refer this ,to learn python </h3>
+                <li><a href="https://www.python.org/">try me</a></li>
+      
+      
+      
+      
+                <!-- <li> <a href="https://www.javatpoint.com/cpp-basic-input-output">cin,cout,endl</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-if-else">Control statements</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-functions">Functions</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-arrays">Arrays</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-pointers">Pointers</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-oops-concepts">Object-Oriented Concepts</a></li>
+                <li> <a href="https://www.javatpoint.com/cpp-inheritance">Inheritance</a></li>
+                <li> <a href="https://www.javatpoint.com/interfaces-in-cpp">Abstraction</a></li>
+                
+                <li> <a href="https://www.javatpoint.com/cpp-templates">Templates</a></li> -->
+                
+                
+              </ul>
+             
+                </div>
+              </span>
+              
+              <hr>
+              <br>
+              <h3>For more information watch the below video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gfDE2a7MKjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <br>
+      
+      <!-- ======== PHP========= -->
+      <section id="php" class="html">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <!-- <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100"> -->
+            <!-- <img src="assets/img/group.jpg" class="img-fluid" alt=""> -->
+            <!-- </div> -->
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+            <div id="adv">
+            <p3>About PHP</p3>
+              <h3>PHP stands for <strong>"Hypertext Preprocessor"</strong></h3>
+              <ul>
+                <li>
+                  PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites
+                  </li>
+                <li>
+                  It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.
+                </li>
+                <li>
+                  PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time
+                </li>
+                <li>PHP is forgiving: PHP language tries to be as forgiving as possible.</li>
+                <li>PHP Syntax is C-Like.</li>
+              </ul>
+              <br>
+      
+            
+                <h3>Uses of php:</h3>
+                <ul>
+                  <li>PHP Syntax is C-Like..</li>
+                  <li>PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.</li>
+                  <li>Several standard functions are there (like in-built) that can be used to develop programs.</li>
+                  <li>You add, delete, modify elements within your database through PHP.</li>
+                  <li>Access cookies variables and set cookies.</li>
+                  <li>Using PHP, you can restrict users to access some pages of your website.</li>
+                  <li>It can encrypt data.</li>
+                </ul>
+                <br>
+             
+              <h3>Characteristics of PHP:</h3> 
+              <p>Five important characteristics make PHP's practical nature possible −</p>
+                <ul>
+                  <li>Simplicity</li>
+                  <li>Efficiency</li>
+                  <li>Security</li>
+                  <li>Flexibility</li>
+                  <li>Familiarity</li>
+                </ul>
+                <br>
+              
+            </div>  
+            <p style="font-size: 20px;">Let's consider an example:</p>
+            <div class="ex">
+              <br>
+              <p>&lt;!Doctype html&gt;</p>
+              <p>&lt;html&gt; </p>
+              <p>&lt;head&gt;</p>
+              <p>&lt;title&gt; Title name &lt;/title&gt;</p>
+              <p>&lt;/h1&gt;</p>
+              <p>&lt;body&gt;</p>
+              <p>&lt;?php echo "Hello, World!";?&gt;</p>
+              <p>&lt;/body&gt;</p>
+              <p>&lt;/html&gt;</p>
+              <br>
+              <br>
+            </div>
+            <br>
+            <p style="font-size: 20px;">Output</p>
+            <img src="assets/img/courses/phpoutput.png" width="100%" height="400px">
+            <!-- <h3>For Detailed information visit the following sites👇</h3>
+            <div id="now">
+            <ul>
+              <li> <a href="https://www.w3schools.in/c-tutorial/tokens/">C Tokens</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/operators/">Operators</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/data-types/">Data Types</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/variables/">Variables</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/input-output/">input-output statements</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/decision-making/">Conditional Statements</li></a>
+              <li> <a href="https://www.w3schools.in/c-tutorial/loops/">Control Statements</li></a>
+            </ul>
+          </div> -->
+          <br>
+            <hr>
+            <br>
+              <h3>For more information watch the below video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/1SnPKhCdlsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>    
+      
+      <!-- ======== Perl Script========= -->
+      <section id="perl" class="html">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+            <div id="adv">
+            <p3>About Perl</p3>
+              <h3>Perl stands for <strong>"Practical Extraction and Report Language."</strong></h3>
+              <ul>
+                <li>Perl was created by Larry Wall..</li>
+                <li>Perl is a stable, cross platform programming language.</li>
+                <li>
+                  Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more
+                  </li>
+                <li>
+                  It is used for mission critical projects in the public and private sectors.
+                </li>
+                <li>Perl is an Open Source software, licensed under its Artistic License, or the GNU General Public License (GPL).</li>
+                <li>
+                  Perl works with HTML, XML, and other mark-up languages.
+                </li>
+                <li>Perl supports both procedural and object-oriented programming.</li>
+                <li>The Perl interpreter can be embedded into other systems.</li>
+                <li>Perl used to be the most popular web programming language due to its text manipulation capabilities and rapid development cycle</li>
+                <li>Perl is an interpreted language, which means that your code can be run as is, without a compilation stage that creates a non portable executable program.</li>
+              </ul>
+              <br>
+      
+            
+                <h3>Advantages of Perl:</h3>
+                <ul>
+                  <li>Compared to other Programming languages Perl is most powerful for text handling and Parsing.</li>
+                  <li>This is an interpreted language with fast execution time as there is no need to compile a Perl script.</li>
+                  <li>Simple and easy to program and understand.</li>
+                  <li>It is object oriented.</li>
+                  <li>Used in Web development for mostly Payment Gateways.</li>
+                  <li>Used in Automation and to test most of the Network and Storage related stuff.</li>
+                  <li>CPAN library eases Perl development</li>
+                </ul>
+                <br>
+             
+              <h3>Disadvantages of Perl:</h3> 
+                <ul>
+                  <li>There is minimal GUI support as compared to other Programming languages.</li>
+                  <li>You need to refer to complex library modules which are not so easy to understand.</li>
+                  <li>Understanding complex Patterns requires experience.</li>
+                </ul>
+            </div>
+            <br>  
+            
+            <p style="font-size: 20px;">Let's consider an example:</p>
+            <div class="ex">
+              <br>
+              <p>
+              <pre>
+                #!/usr/bin/perl   
+                
+                # This will print "Hello, World"
+                print "Hello, world\n";
+                </pre>
+              </p>
+              <br>
+            </div>
+            <br>
+            <br>
+            <p style="font-size: 20px;">Output</p>
+            <img src="assets/img/courses/perloutput.png" width="100%" height="400px">
+            <br>
+            <hr>
+            <br>
+            <br>
+              <h3>For more information watch the below video</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/IoLVCEr207w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr>    
+
+</div>
+
+</body>
+</html>

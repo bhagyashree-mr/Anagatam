@@ -1,0 +1,318 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+ 
+  <title>Experts</title>
+  <style>
+
+    body{
+      margin:0px;
+      padding:0px;
+     /* background: linear-gradient(0.25turn, red, blue); */
+     background: linear-gradient(00.25turn,#e66465, #9198e5);
+     /* background:linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    }
+    .button{
+         background-color:green;
+         border: none;
+         cursor: pointer;
+         padding:4px;
+         border-radius:4px ;
+         font-size: 20px;
+         text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    a:hover{
+      background-color: greenyellow;
+    }
+    
+    .con{
+        width:95%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow:wrap;
+        border: 2px solid black;
+        margin: auto;
+
+    }
+
+    .check{
+        width:auto;
+        height: auto;
+        margin: 20px;
+        box-sizing: border-box;
+        font-size: 50px;
+        text-align: center;
+        /* border: 2px solid black; */
+    }
+    h1{
+      text-align: center;
+    }
+    strong{
+      font-size: 20px;
+    }
+  </style>
+  
+</head>
+<body>
+
+      <div>
+        <h1>Our Experts👩‍🏫</h1>
+        <p></p>
+      </div>
+
+<div class="con">
+  <div class="check">
+    <img
+      src="https://cdn1.iconfinder.com/data/icons/avatars-1-5/136/60-512.png"
+      width="200px"
+      height="200px"/>
+      <h6>Smt.Jyoti Patil <br><strong>Mental Health Expert</strong><br> <a href="mykyu.html" target="_blanck" class="button">Consult</a> </h6> 
+  </div>
+  <div class="check">
+    <img
+      src="https://meebuddy.com/images/all/cus2.png"
+      width="200px"
+      height="200px"/>
+      <br>
+      <h6>Smt.Smitha<br><strong>Engineering Expert</strong><br><a href="mykyu.html" target="_blanck" class="button">Consult</a></h6>
+  </div>
+  <div class="check">
+    <img
+      src="https://cdn3.iconfinder.com/data/icons/business-finance-ii-flat-multicolor-background-sha/2048/1282_-_Business_Woman-512.png"
+      width="200px"
+      height="200px"/>
+      <h6>Smt.Sujata<br><strong>Vocational Expert</strong><br><a href="mykyu.html" target="_blanck" class="button">Consult</a></h6>
+  </div>
+  <div class="check">
+    <img
+      src="https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-female-5-512.png"
+      width="200px"
+      height="200px"/>
+      <h6>Smt.Priyadarshini<br><strong>Psychological Expert</strong><br><a href="mykyu.html" target="_blanck" class="button">Consult</a></h6>
+  </div>
+
+</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Experts</title>
+      <link rel="stylesheet" href="style.css">
+      <span class="material-icons">
+      </span>
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+      <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/brain-circuit?s=solid"/> -->
+      <script src="https://kit.fontawesome.com/e9cfdc9f16.js" crossorigin="anonymous"></script>
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+   /* background-image: url("https://cdn.pixabay.com/photo/2016/04/06/04/34/wallpapers-1310940_640.jpg");  */
+  background-image: url("https://www.bird-wittenbergdental.com/wp-content/uploads/2017/01/top-line-management-login-background-1.jpg");
+  /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);   */
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.wrapper{
+  display: grid;
+  margin: 100px 90px auto;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+@media (max-width: 700px) {
+  .wrapper{
+    margin: 200px auto;
+  }
+}
+.wrapper .box{
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+  perspective: 1000px;
+}
+.wrapper .box .front-face{
+  background: #fff;
+  height: 330px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
+}
+.box .front-face .icon{
+  height: 80px;
+}
+.box .front-face .icon i{
+  font-size: 65px;
+  width:95%;
+}
+.box .front-face span,
+.box .back-face span{
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .front-face .icon i,
+.box .front-face span{
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  -webkit-background-clip: text;
+  background-clip: width;
+  -webkit-text-fill-color: transparent;
+}
+.box .back-face{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 330px;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  opacity: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  transform: translateY(110px) rotateX(-90deg);
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
+}
+.box .back-face p{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+
+.box .back-face a:hover{
+  color:#ffffff;
+  text-decoration: none;
+}
+.box:hover .back-face{
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+.box:hover .front-face{
+  opacity: 0;
+  transform: translateY(-110px) rotateX(90deg);
+}
+.button{
+           background-color: palegreen;
+           border: none;
+           cursor: pointer;
+           padding: 6px;
+           border-radius:4px ;
+           font-size: 15px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      a:hover{
+        background-color: lightsalmon;
+      }
+    h1{
+      font-family: sans-serif;
+      text-align: center;
+      margin-top:20px;
+      font-size: 70px;
+      color: transparent;
+      background-image:url("https://media1.giphy.com/media/l0HlGdXFWYbKv5rby/giphy.gif?cid=ecf05e47oclv6v057wto2pfv6juum5mkrqxwoq1cq7mcdu24&rid=giphy.gif&ct=g");
+      background-position:center;
+      -webkit-background-clip:text;
+      background-clip: none;
+    }
+    
+      </style>
+   </head>
+   <body>
+    
+    <h1>OUR EXPERTS</h1>
+      <div class="wrapper">
+         <div class="box">
+            <div class="front-face">
+               <div class="icon">
+                  
+                  <i class="fa-solid fa-person-chalkboard"></i>
+               </div>
+               <span>Vocational Expert</span>
+            </div>
+            <div class="back-face">
+              <div>
+              <span>Vocational Expert</span> </a>
+               <p>
+                Vocational experts can offer opinions on whether someone is capable of returning to work, and, if so, in what capacity. They may also offer an opinion on how long it might take to get a person trained in a particular skill set or job so that they can become independent.
+               </p>
+               <br>
+               <a href="Expert_form.html" class="button">Consult</a>
+              </div>
+            
+            </div>
+         </div>
+         <div class="box">
+            <div class="front-face">
+               <div class="icon">
+                   <!-- <i class="fas fa-chart-line"></i> -->   
+                   <i class="fa-solid fa-user-graduate"></i>
+               </div>
+               <span>Engineering Expert</span>
+            </div>
+            <div class="back-face">
+              <!-- <a href="mykyu.html"> -->
+                <div>
+               <span>Engineering Expert</span> </a>
+               <p>
+                Engineering experts can offer opinions on which subject or course to take after 12th in Engineering.They may also explain about the scope and opportunities in that field.
+               </p>
+               <br>
+               <a href="mykyu.html" class="button">Consult</a>
+              </div>
+           
+            </div>
+         </div>
+         <div class="box">
+            <div class="front-face">
+               <div class="icon">
+                  <!-- <i class="fas fa-rocket"></i> -->
+                  <i class="fa-solid fa-chalkboard-user"></i>
+               </div>
+               <span>Psychological Expert</span>
+            </div>
+            <div class="back-face">
+              <!-- <a href="mykyu.html"> -->
+                <div>
+               <span>Psychological Expert</span></a>
+               <p>
+                  Psychological Experts can offer opinions on what is the cause of student's or user's going in depression.They may also suggest some of the solutions of coming out of it.
+               </p>
+               <br>
+               <a href="mykyu.html" class="button">Consult</a>
+              </div>
+            
+            </div>
+         </div>
+      </div>
+   </body>
+</html> 
+ 

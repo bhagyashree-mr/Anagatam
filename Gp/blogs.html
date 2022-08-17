@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    /* height: 80px; */
+    height: 300px;
+    width: 300px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+img{
+  width: 700px;
+  height: 500px;
+}
+    </style>
+
+</head>
+<body>
+    
+<div class="container">
+
+    <h1 class="heading">blog section</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/asian-college-student-is-making-a-presentation-in-front-of-projector-picture-id1320658267?s=612x612" alt="">
+            <h3>10 Tips for Teachers to Deliver Effective and Engaging Online Learning</h3>
+            <p>As an educator, you know firsthand the incredible challenges you’ve had to manage since the onset of the pandemic.</p>
+            <a href="#teacher" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhcm5pbmd8ZW58MHx8MHx8&w=1000&q=80" alt="">
+            <h3>Deliver job-based learning and build a cutting-edge curriculum</h3>
+            <p>SkillSets are job-based learning programs that leverage world-class courses from leading universities and companies, hands-on learning.</p>
+            <a href="#job" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://static.scientificamerican.com/sciam/cache/file/C3D6DFBB-92DD-43D0-A9F8CB9AB477F652_source.jpg?w=590&h=800&5F47C5D2-41D8-476F-A29200DA225DCEEA" alt="">
+            <h3>Introducing Six Curriculum Maps for Student Employability</h3>
+            <p>A new economic infrastructure, built through innovations such as cloud computing, big data, and artificial intelligence, is propelling work into the “next normal.”</p>
+            <a href="#curriculum" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://media.istockphoto.com/photos/accounting-business-calculation-in-the-design-of-information-related-picture-id1073645116" alt="">
+            <h3>Why China is cagey on Russia: Facing economic threats of its own, Beijing is less likely to back Moscow’s war in Ukraine</h3>
+            <p>For all the focus on how Russia’s economy is in trouble, isolated and battered by Western sanctions for its war on Ukraine, its most important ally, China faces serious tremors as well.</p>
+            <a href="#china" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://st.depositphotos.com/1518767/2310/i/950/depositphotos_23102436-stock-photo-students-writing-in-the-exam.jpg" alt="">
+            <h3>What I learnt from my exams</h3>
+            <p>"The sooner you have that core material available, the more time you will have to prepare and revise. You get the idea – it is all about making sufficient time to study for the exams!"</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/08/brain-1533482478.jpg" alt="">
+            <h3>Memory boosting techniques</h3>
+            <p>'There is not a single method of study and it is not something rigid. The ideal would be to have flexibility and to find the most suitable method for you.'</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<section id="teacher" class="html">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+          <h1>10 Tips for Teachers to Deliver Effective and Engaging Online Learning</h1>
+          <div
+            class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+            data-aos="fade-right"
+            data-aos-delay="100">
+          <br><br>
+        <img src="https://media.istockphoto.com/photos/asian-college-student-is-making-a-presentation-in-front-of-projector-picture-id1320658267?s=612x612" alt="">
+          <pre>
+            As an educator, you know firsthand the incredible challenges you’ve had to manage since the onset of the pandemic. You’ve had to quickly pivot to remote learning and develop an entirely new set of skills almost overnight. And while everyone from teachers to curriculum designers has done remarkably well under the circumstances, the disruptions have nonetheless made clear the need for more resources to help you continue to design and deliver engaging and effective online learning experiences.
+
+            Online Learning Design for Educators is a new Specialization on Coursera. It was created by subject matter experts at Macquarie University, and it’s designed to help you expand your repertoire of online teaching skills. This is an ideal program for anyone who is designing or delivering online learning experiences, is familiar with face-to-face teaching, and is now adapting to online environments.
+            
+            In a recent post on Teche, Macquarie University’s Learning and Teaching community blog, Professor Garry Falloon (a contributor to the Specialization, and a Macquarie School of Education faculty member) provided a valuable list of 10 tips educators can rely on to help foster successful online learning experiences:
+            
+            Create opportunities for learners to collaborate.
+            Partner with your learners to create ‘active engagement.’
+            Be mindful of the cognitive load for your learners.
+            Provide feedback to your learners.  
+            Create opportunities for synchronous and asynchronous learning.
+            Learn how to use your learning management system or other tools to connect with learners.
+            Create or curate.
+            Discuss and share your audio, video, and infographic prototypes with a colleague.
+            Be vulnerable and transparent and share your learning when it comes to online teaching with your students.
+            Be mindful that learning can occur online and offline, so plan accordingly, support learners to be agile, flexible, and responsive in developing their knowledge and understanding.
+            Professor Falloon’s list provided an excellent framework to follow as you explore new strategies for delivering world-class learning online, and contained within his tips is a wealth of valuable insights about the challenges and opportunities of online education.
+            
+            Among the many issues he touches on is the importance of collaboration and what he terms ‘active engagement’:
+            
+            “Encourage your students to become active in their learning by designing tasks that are motivating and allow students to construct and build content knowledge together of relevance to them, rather than just passively responding to PDF worksheets posted online.”
+            
+            Professor Falloon notes that project and problem-based projects are effective for encouraging beneficial collaboration. He also points out that while project-based approaches allow for a balance of asynchronous and synchronous work: “Teachers need to be highly present both in asynchronous and synchronous tasks. The more the teacher engages, the more the students will engage.”
+            
+            Recognizing that the pivot to online learning is a change for educators as well as students, Professor Falloon encourages teachers to share learnings amongst themselves and to be open with students: “Remote learning is new for most—teachers and students alike. Sharing wins and misses is a great way to bond over this challenging time.”
+            
+            As you continue to explore new strategies for refining and optimizing your approach to online learning, we hope you’ll find this Specialization beneficial. You can enroll for free today with a 7-day free trial. To access assessment tasks and receive certification, you can enroll in the monthly subscription, which is valued at USD$49/AUD$66. The Specialization can generally be completed in approximately three-to-four months. 
+          </pre>
+                      
+                    </div>
+                  </div>
+                </div>
+              </section>
+          <hr/>
+          
+          <!-- ========css course========= -->
+<section id="job" class="css">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <h3>Deliver job-based learning and build a cutting-edge curriculum</h3>
+            <br>
+            <br>
+            <div
+                class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+                data-aos="fade-right"
+                data-aos-delay="100">
+          
+                  
+                <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhcm5pbmd8ZW58MHx8MHx8&w=1000&q=80" alt="">
+            
+
+            <pre>
+            SkillSets
+
+            SkillSets are job-based learning programs that leverage world-class courses from leading universities and companies, hands-on learning, and skills insights derived from Coursera learners at over 2,300 employers. With dozens of SkillSets currently available, you can confidently prepare students with the in-demand skills necessary to secure today’s high-growth jobs. Within a given SkillSet, students will take courses and projects tailored to their existing proficiency levels that accelerate their skill mastery.
+
+            What are the benefits of SkillSets?
+
+            SkillSets will enable you to confidently deploy tailored, job-based learning programs at scale. SkillSets leverage Coursera’s comprehensive skills and role insights to identify the high-growth jobs that companies are hiring for, and the corresponding skills they require. This allows you to:
+
+            Choose from dozens of job-based learning programs that develop in-demand skills for entry-level roles.
+            Deliver job-based learning with confidence, knowing that you’re teaching exactly the in-demand skills necessary to drive stronger student employability outcomes.
+            Deliver tailored learning experiences with dynamic course and project recommendations that are optimized for the proficiency level of each student.
+            Drive mastery of in-demand tools and technologies using Guided Projects that leverage a side-by-side interface in a virtual cloud workspace. 
+            Additionally, with our Skills Development Dashboards, you can track student progress and monitor skill acquisition over time. Also, you can compare student skills against industry benchmarks. In addition to optimizing your learning programs, this information will allow you to share actionable insights with prospective employers and match candidates to the right opportunities based on their skills.
+            Curriculum Integration 
+
+            Successful curriculum integration begins with easy and effective navigation—the ability to quickly find the right courses to supplement your curriculum and fit your students’ needs. Then, you’ll want to seamlessly incorporate that content into your learning programs and workflows. And finally, you need to be able to deploy courses and monitor student progress. To achieve all these goals, we’re introducing some great new features. Let’s review each one:
+
+            Curriculum recommendations. Our curriculum recommendations feature will help you navigate the Coursera catalog to select the courses that supplement your curriculum and fit your students’ needs. This feature allows you to:
+
+            Browse courses by academic discipline making it easy for you to discover the courses in our catalog that correspond with the core subjects you are teaching in your curriculum.
+            View our recommendations of courses to offer for credit based on our extensive skills expertise and data to leverage the courses in our catalog that are most suitable for your core curriculum. 
+            For-Credit Tagging: In addition to the enhanced navigation functionality described above, this feature allows you to choose and tag which courses you would like to offer for credit. This makes it easier for your learners to see which courses are part of your core curriculum that they need to complete, right from within the Coursera platform.  
+
+            Limited Availability Schedules: You can use this feature to offer courses within timeframes that align with your academic term or other timelines that your institution observes. This simplifies program management, as you don’t have to worry about multiple, misaligned timelines. For your students, this will help to ensure they’re progressing as a cohort in order to comply with the timelines you have set. 
+
+            Online Gradebook: Our online gradebook provides you with course progress monitoring abilities, right from within the Coursera platform. Leveraging this functionality, you will be able to:
+
+            Track the progress of students taking a course across in order to ensure that your students are moving smoothly throughout the course. You can see this progress at a cohort level for the current academic term or for all students who have taken that course. 
+            Identify learners who are enrolled, at risk, inactive, or who have completed the course in order to take necessary corrective measures. 
+            Export data to load into your LMS in order to analyze this information along with the rest of your program information. 
+            </pre>
+                          
+                          
+                      <hr>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <br>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr/>
+
+<!-- ========css course========= -->
+  <section id="curriculum" class="css">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div
+          class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+          data-aos="fade-right"
+          data-aos-delay="100">
+        <h1>Introducing Six Curriculum Maps for Student Employability</h1>
+          <br> <br>
+          <img src="https://static.scientificamerican.com/sciam/cache/file/C3D6DFBB-92DD-43D0-A9F8CB9AB477F652_source.jpg?w=590&h=800&5F47C5D2-41D8-476F-A29200DA225DCEEA" alt="">
+          <pre>
+            A new economic infrastructure, built through innovations such as cloud computing, big data, and artificial intelligence, is propelling work into the “next normal.” In this digital era, career success will depend on the ability to continuously adapt alongside technology. This affects not just the way we work, but fundamentally, the skills we learn. As the institutional bridge between education and work, universities must increasingly ensure that students are equipped with job skills necessary to thrive in this digital world.
+
+            These are important topics for university leaders to consider as they prepare students for the workforce:
+            
+            How can higher-educational institutions embrace digital capabilities to keep pace with the accelerating rate of technological change? 
+            How can educators both identify and anticipate the skills of the future? 
+            How can existing programs of study be reconfigured to ensure that students are job-ready?
+            Coursera’s latest e-book, Curriculum Mapping for Student Employability, addresses these questions head-on. With more than 86 million learners, 4,000 academic institutions, 300 government entities and 2,000 organizations having used the Coursera platform  (as of June 2021), Coursera is uniquely positioned to help higher education institutions align with the skill needs of the modern workforce. The curriculum maps presented in this eBook converge these rich insights with expert curations led by Coursera’s Skills Transformation team. 
+            
+            The six custom curriculum maps featured in this eBook serve as a proposed guideline for universities looking to integrate online learning. Each map demonstrates how universities can leverage courses on Coursera to close present-day gaps and empower students to develop job-ready skills. 
+            
+            
+            This blended learning curriculum for computer science can help students to gain critical AI skills with online courses [blue]
+            
+            This blended learning curriculum for business administration can help students to gain critical data analysis skills with online courses [blue]
+            Depending on their institutional priorities and policies, universities can incorporate online courses into their curricula as either for-credit offerings or multidisciplinary electives. In the coming months, Coursera will release several features to facilitate such integrations. The first of these features will recommend courses, organized by academic discipline, that universities can consider offering for credit to their students.
+            
+            By enhancing their core curriculum with content on Coursera, universities can design forward-thinking learning programs effectively and at scale. The results—improved employment outcomes for graduates, deepened understanding of emerging skills among educators, and a more robust talent pipeline for employers—will benefit stakeholders within higher education and far beyond.
+            
+            For more insights and all six curriculum maps, download the full report here.
+          </pre>
+
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section id="china" class="css">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div
+          class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+          data-aos="fade-right"
+          data-aos-delay="100">
+        <h1>Why China Is Cagey On Russia: Facing Economic Threats Of Its Own, Beijing Is Less Likely To Back Moscow’s War In Ukraine</h1>
+          <br> <br>
+          <img src="https://media.istockphoto.com/photos/accounting-business-calculation-in-the-design-of-information-related-picture-id1073645116" alt="">
+                  
+                  <pre>
+                    A new economic infrastructure, built through innovations such as cloud computing, big data, and artificial intelligence, is propelling work into the “next normal.” In this digital era, career success will depend on the ability to continuously adapt alongside technology. This affects not just the way we work, but fundamentally, the skills we learn. As the institutional bridge between education and work, universities must increasingly ensure that students are equipped with job skills necessary to thrive in this digital world.
+        
+                    These are important topics for university leaders to consider as they prepare students for the workforce:
+                    
+                    How can higher-educational institutions embrace digital capabilities to keep pace with the accelerating rate of technological change? 
+                    How can educators both identify and anticipate the skills of the future? 
+                    How can existing programs of study be reconfigured to ensure that students are job-ready?
+                    Coursera’s latest e-book, Curriculum Mapping for Student Employability, addresses these questions head-on. With more than 86 million learners, 4,000 academic institutions, 300 government entities and 2,000 organizations having used the Coursera platform  (as of June 2021), Coursera is uniquely positioned to help higher education institutions align with the skill needs of the modern workforce. The curriculum maps presented in this eBook converge these rich insights with expert curations led by Coursera’s Skills Transformation team. 
+                    
+                    The six custom curriculum maps featured in this eBook serve as a proposed guideline for universities looking to integrate online learning. Each map demonstrates how universities can leverage courses on Coursera to close present-day gaps and empower students to develop job-ready skills. 
+                    
+                    
+                    This blended learning curriculum for computer science can help students to gain critical AI skills with online courses [blue]
+                    
+                    This blended learning curriculum for business administration can help students to gain critical data analysis skills with online courses [blue]
+                    Depending on their institutional priorities and policies, universities can incorporate online courses into their curricula as either for-credit offerings or multidisciplinary electives. In the coming months, Coursera will release several features to facilitate such integrations. The first of these features will recommend courses, organized by academic discipline, that universities can consider offering for credit to their students.
+                    
+                    By enhancing their core curriculum with content on Coursera, universities can design forward-thinking learning programs effectively and at scale. The results—improved employment outcomes for graduates, deepened understanding of emerging skills among educators, and a more robust talent pipeline for employers—will benefit stakeholders within higher education and far beyond.
+                    
+                    For more insights and all six curriculum maps, download the full report here.
+                  </pre>
+        
+                 
+                </div>
+              </div>
+            </div>
+          </section>
+          </pre>
+
+         
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

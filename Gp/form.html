@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Feedback Form</title>
+<style>
+    body{
+        /* background-color: palegreen; */
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); 
+        /* background: linear-gradient(45deg, red, blue); */
+    }
+    /* h1{background-color: blue;} */
+    p{
+        text-align:center;
+        color:red;
+        font-size: 25px;
+    }option{
+        background-color:black ;
+        color: white;
+    }
+</style>
+<!-- <link rel="stylesheet" href="try.html"> -->
+</head>
+
+<body>
+  <img src="assets/img/trylogo.png" align="left" width="130px" height="130px">
+  <br>
+  <center><h1>ANAGATAM WEBSITE</h1></center>
+  <form method="post" action="http://127.0.0.1:5500/Gp/try.html" >
+      <table align="center" height="550px" width="600px" bgcolor="powderblue">
+      <!-- <br> -->
+      <p>Your Valuable Feedback</p>
+      <hr>
+      <tr>
+          <th>NAME:</th>
+         <td><input type="text" placeholder="Enter your name" required></td></tr>
+         <tr>
+             <tr>
+       <th>Email:</th>
+             <td><input type="email" placeholder="Enter your email id" required></td></tr>
+             <tr>
+                    <th>mobile:</th>
+                   <td><input type="text" placeholder="Enter your mobile number" maxlength="10" required></td></tr>
+      <tr>
+          <th>Selected Course:</th>
+          <td>
+              <select name="country">
+              <option value="" selected="selected" disabled="disabled">Select Course</option>
+              <option value="1">C</option>
+              <option value="2">C++</option>
+              <option value="1">HTML</option>
+              <option value="2">CSS</option>
+              <option value="1">JavaScript</option>
+              <option value="2">Php</option>
+              <option value="2">Perl</option>
+              <option value="2">Python</option>
+              </select>
+              </td></tr>
+              <tr>
+                <th>Suggestions:</th>
+               <!-- <input type="textarea" placeholder="Write your message" required> -->
+               <td> <textarea name="Suggestions" id="Suggestions" cols="30" rows="10" placeholder="Write your message"></textarea></td>
+            </tr>
+               <tr>
+              
+              <tr>
+                  <th>Rating:</th>
+                  <td>
+                      <select name="country">
+                          <option value="" selected="selected" disabled="disabled">Selects</option>
+                          <option value="1">⭐</option>
+                          <option value="2">⭐⭐</option>
+                          <option value="1">⭐⭐⭐</option>
+                          <option value="2">⭐⭐⭐⭐</option>
+                          <option value="1">⭐⭐⭐⭐⭐</option>
+                          <!-- <option value="2">V18cs28</option> -->
+                        </select>
+                    </td>
+                </tr>  
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="submit">
+                            <input type="submit" value="cancel">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+        </html>
+        <!-- <tr>
+            <th>Vtu number</th>
+             <td><input type="password"  required></td></tr> -->
